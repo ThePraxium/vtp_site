@@ -45,7 +45,7 @@
   <div class="container">
     <h1>Donate to Von Terra Project</h1>
     <p class="sub" style="max-width:740px;margin-left:auto;margin-right:auto">Your contribution to the Von Terra Project is more than a donation; it is a direct investment in a safer, more resilient digital world.</p>
-    <a class="btn btn-donate" href="#">Donate Now</a>
+    <a class="btn btn-donate" href="https://donorbox.org/donate-to-vtp" target="_blank" rel="noopener">Donate Now</a>
   </div>
 </section>
 <section>
@@ -69,7 +69,13 @@
 </section>
 <section class="section-soft">
   <div class="container">
-<div class="embed-placeholder" style="min-height:620px"><span class="label">Donorbox Donation Widget</span><span class="note">Embed to be inserted here.</span></div>
+<div class="embed-wrap">
+  <script type="module" src="https://donorbox.org/widgets.js" async></script>
+  <dbox-widget campaign="donate-to-vtp" type="donation_form" interval="1 T" enable-auto-scroll="true" show-content="true"></dbox-widget>
+  <p class="embed-fallback">Trouble loading the form? <a href="https://donorbox.org/donate-to-vtp" target="_blank" rel="noopener">Donate on Donorbox &rarr;</a></p>
+</div>
+<h3 class="embed-heading" style="margin-top:48px">Our Donors</h3>
+<iframe class="donor-wall-frame" src="https://donorbox.org/embed/donate-to-vtp?donor_wall_color=%23434d58&amp;only_donor_wall=true" seamless="seamless" name="donorbox" scrolling="no" title="The Von Terra Project donor wall"></iframe>
   </div>
 </section>
 <section>

@@ -30,10 +30,19 @@ Other TBDs in content:
 - **Elisha Angeles** — no headshot provided → initials avatar ("EA"). Drop a photo in and
   update `team.html` / `team-elisha-angeles.html` (or ask me to wire it).
 - **Saren Bennett** — no biography text provided (per spec, the bio page has no body).
-- `href="#"` anchors are intentional per spec: CyberHERo program donate, all Start-Security
-  vendor buttons, Documents View/Download, Donate Now.
-- `[EMBED PLACEHOLDER]` boxes await the real embeds: Self-Assessment Survey, Donorbox
-  widget, Document Viewer, Contact Form.
+- `href="#"` anchors that remain are intentional per spec: all Start-Security vendor
+  buttons and the Documents "View / Download" links (governing docs not yet supplied).
+
+### Live embeds (wired in)
+- **Donate** (`donate.html`) — live Donorbox form (`donate-to-vtp`) + donor wall; "Donate Now" links to the campaign.
+- **CyberHERo** (`cyberhero.html`) — live Donorbox form (`donate-824785`) + donor wall; program donate button links to the campaign.
+- **Documents** (`documents.html`) — embedded Google Drive viewer for the 2025 Impact & Insight Report.
+- Each embed has a plain-link fallback in case a browser blocks the third-party frame. The
+  Drive report requires its sharing to be **"Anyone with the link"** to display publicly.
+
+### Still awaiting a real embed (`[EMBED PLACEHOLDER]` boxes remain)
+- **Self-Assessment Survey** (`self-assessment.html`) — no embed/URL provided yet.
+- **Contact Form** (`contact.html`) — no embed/URL provided yet.
 
 ## Notes
 - The VTP logo lockup (`VTP Logo.png`) was composed from the organization's emblem +
