@@ -47,5 +47,9 @@ Other TBDs in content:
 ## Notes
 - The VTP logo lockup (`VTP Logo.png`) was composed from the organization's emblem +
   wordmark assets at 506×120 for crisp rendering at the 40px header height.
-- Fonts (Montserrat, Inter) load from Google Fonts per the build instructions — the site
-  needs internet access for fonts, or self-host them and update the `<link>` tags.
+- **Styling matches the VTP brand / design system** (dark `#2E2E2E` field, olive `#5C754A`,
+  sage `#A0B98C`, gold `#D8B45C`, **Lexend**, wide-tracked UPPERCASE headings) — not the
+  earlier navy/teal build-file palette. All of it lives in the single `css/style.css`.
+- **Lexend is self-hosted** in `assets/fonts/` (`@font-face` in `style.css`); no external font
+  fetch is required. The Google-Fonts `<link>` tags for Montserrat/Inter remain in each page's
+  `<head>` but are now unused (the browser won't download those files) — safe to remove later.
