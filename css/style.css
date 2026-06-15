@@ -315,20 +315,20 @@ section { padding: 80px 0; }
 .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .team-card { text-align: center; }
 .team-avatar {
-  width: 132px; height: 132px; border-radius: 50%;
+  width: 100%; aspect-ratio: 3 / 4; border-radius: 14px;
   object-fit: cover; object-position: top center;
   display: block; margin: 0 auto 18px;
-  border: 3px solid var(--line-subtle);
+  border: 1px solid var(--line-subtle);
   box-shadow: var(--shadow-md);
 }
 .team-avatar-initials {
-  width: 132px; height: 132px; border-radius: 50%;
+  width: 100%; aspect-ratio: 3 / 4; border-radius: 14px;
   display: flex; align-items: center; justify-content: center;
   margin: 0 auto 18px;
   background: var(--raised);
   color: var(--sage);
-  font-family: var(--heading-font); font-weight: 700; font-size: 2.2rem;
-  border: 3px solid var(--line-subtle);
+  font-family: var(--heading-font); font-weight: 700; font-size: 3.4rem;
+  border: 1px solid var(--line-subtle);
 }
 .team-card .role { color: var(--gold); font-weight: 600; margin: 2px 0 12px; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.9rem; }
 .team-card .bio { font-size: 0.98rem; color: var(--ink-2); }
