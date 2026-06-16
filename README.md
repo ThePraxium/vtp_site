@@ -13,10 +13,10 @@ VTP is three repos, one system. **This site consumes; it is not the source of tr
   there (see the provenance comments in `css/style.css`). Mission/vision/values come from
   `vtp_voice/brand/facts.json`.
 - **Governance/transparency documents, the embedded report, team roster, EIN, and
-  donation/campaign IDs** are owned in **`vtp_gdrive`** (github.com/ThePraxium/vtp_gdrive,
+  donation/campaign IDs** are owned in **`vtp_governance`** (github.com/ThePraxium/vtp_governance,
   private) and published via its `public` Drive. The Drive embeds on `documents.html` /
   `VTP-Report-2025.html` are keyed to file IDs tracked in
-  `vtp_gdrive/governance/classification/website-embed-manifest.md` — don't re-upload those
+  `vtp_governance/governance/classification/website-embed-manifest.md` — don't re-upload those
   files (it changes the ID and breaks the embed).
 
 ## Structure

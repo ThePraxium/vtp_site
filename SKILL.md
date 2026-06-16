@@ -25,7 +25,7 @@ faithful to the canonical facts** — which live upstream in **governance**, not
 | Per-person bio | `team-<slug>.html` |
 | Headshots | `website_images/team-<slug>.jpg` (or initials `<div class="team-avatar-initials">XY</div>`) |
 | Page list (SEO) | `sitemap.xml` |
-| Drive-embed file IDs | `documents.html`, `VTP-Report-2025.html` — see `vtp_gdrive/governance/classification/website-embed-manifest.md` |
+| Drive-embed file IDs | `documents.html`, `VTP-Report-2025.html` — see `vtp_governance/governance/classification/website-embed-manifest.md` |
 
 ## Roster card pattern (`team.html`)
 ```html
